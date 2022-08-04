@@ -1,5 +1,6 @@
-package Models;
+package Service;
 
+import Models.IndustryInfo;
 import org.openqa.selenium.WebDriver;
 
 import java.util.List;

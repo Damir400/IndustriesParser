@@ -1,5 +1,7 @@
-package Models;
+package Service;
 
+import Models.IndustryIndeedInfo;
+import Models.IndustryInfo;
 import com.google.gson.Gson;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;

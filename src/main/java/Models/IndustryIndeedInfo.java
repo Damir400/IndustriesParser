@@ -2,7 +2,7 @@ package Models;
 
 import org.bson.Document;
 
-public class IndustryIndeedInfo implements IMongoWorkable{
+public class IndustryIndeedInfo implements IMongoWorkable {
     private int number;
     private String ceo;
     private String founded;

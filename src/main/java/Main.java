@@ -1,4 +1,6 @@
 import Models.*;
+import Service.IndeedParser;
+import Service.YahooParser;
 import com.google.gson.Gson;
 import com.mongodb.*;
 import com.mongodb.client.MongoCollection;
@@ -17,9 +19,8 @@ public class Main {
     static JavascriptExecutor jse = null;
     static Gson gson = new Gson();
     static EdgeOptions edgeOptions = null;
-    //edgeOptions.addArguments("headless");
     static WebDriver webDriver = null;
-    static int count = 2;
+    static int count = 50;
     static List<IndustryInfo> industryInfos = new ArrayList<>(count);
 
 

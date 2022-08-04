@@ -9,10 +9,6 @@ public class IndustryYahooInfo implements IMongoWorkable {
     private String description;
     private String corporateGovernance;
     private String urlYahoo;
-//    private String description;
-//    private String description;
-//    private String description;
-
 
     public int getNumber() {
         return number;
